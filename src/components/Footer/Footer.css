@@ -1,111 +1,50 @@
 .footer {
-  margin: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 79px 70px 20px;
+  margin: 8px 0 0;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
   background-color: rgba(250, 250, 250, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.footer__about {
-  margin: auto;
-  padding-bottom: 20px;
-  width: 100%;
-  border-bottom: 1px solid #e8e8e8;
-  color: #a0a0a0;
-  text-align: center;
-  font-family: Inter;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer__box {
-  margin: 20px auto 0;
-  width: 100%;
+.footer__contaner {
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 560px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
-.footer__year {
+.footer__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.footer__menu {
   margin: 0;
-  color: #000;
-  font-size: 13px;
-  font-weight: 400;
+  padding: 5px;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-.footer__yp {
-  margin: 0;
-  text-decoration: none;
-  color: #000;
-  font-family: Inter;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer__yp:hover {
-  opacity: 0.7;
+.footer__menu:hover {
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 5px;
   cursor: pointer;
-}
-
-.footer__git {
-  margin: 0;
-  margin-left: 20px;
-  text-decoration: none;
-  color: #000;
-  font-family: Inter;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer__git:hover {
   opacity: 0.7;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-  .footer {
-    padding: 79px 30px 20px;
-    background-color: #fff;
-  }
-  
-}
-
-@media screen and (max-width: 400px) {
-  .footer {
-    padding: 79px 10px 20px;
-  }
-
-  .footer__box {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .footer__about {
-    font-size: 12px;
-  }
-
-  .footer__links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .footer__git {
-    margin: 0;
-    margin-bottom: 30px;
-  }
 }

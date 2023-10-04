@@ -1,17 +1,13 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: 'San Francisco';
   font-style:  normal;
-  font-weight: 400;
   font-display: swap;
-  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
-       url("./fonts/Inter-Regular.woff") format("woff");
+  src: url("./fonts/san_francisco-webfont.woff2") format("woff2"),
+       url("./fonts/san_francisco-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("./fonts/Inter-Medium.woff2") format("woff2"),
-       url("./fonts/Inter-Medium.woff") format("woff");
+  font-family: Sun Francisco;
+  font-weight: 100;
+  src: url("./fonts/FontsFree-Net-SFProDisplay-Ultralight.ttf") format("ttf");
 }
